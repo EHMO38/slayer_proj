@@ -1,0 +1,95 @@
+:root{
+    --cor0:rgb(144, 29, 29);
+    --cor1:rgb(104, 17, 17);
+    --cor2:black;
+    --font0:
+}
+body{
+    font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
+}
+header{
+    margin: auto;
+}
+.listmenu{
+    text-decoration: none;
+}
+.menu{
+    list-style-type: none;
+    margin: auto;
+    text-align: center;
+    display: flex;
+    padding:0;
+    font-size: 30px;
+    color: rgb(104, 17, 17);
+    border: 3px solid transparent;
+
+    background-color: rgb(144, 29, 29);
+}
+.menu:hover{
+    color: black;
+    border: 4px solid  rgb(104, 17, 17);
+    background-color: rgb(104, 17, 17);
+    text-shadow: 1px 1px 0px rgba(0, 0, 0, 0.441);
+}
+main{
+    min-width: 400px;
+    max-width: 800px;
+}
+article{
+    text-align: justify;
+}
+#tokito{
+    width: 500px;
+    height: 300px;
+}
+aside{
+    text-align: center;
+}
+.video{
+    position: relative;
+    height: 0px;
+    margin-left: -20px;
+    margin-right: -20px;
+    margin-bottom: 15px;
+    padding-bottom: 59%;
+}
+.video > iframe{
+    position: absolute;
+    top: 5%;
+    left: 5%;
+    width: 90%;
+    height: 90%;
+}
+.text{
+    text-align: justify;
+}
+footer{
+    display: flex;
+}
+#sbnos{
+    text-align: justify;
+    width: 200px;
+    justify-content: flex-start;
+}
+#follow{
+    text-align: right;
+    margin: 10px;
+    justify-content: flex-end;
+}
+
+.kodfun-galeri{
+    display: flex;
+    height: 20em;
+    gap: 1rem;
+}
+.kodfun-galeri > div{
+    flex: 1;
+    border-radius: 1rem;
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: auto 100%;
+    transition: all .8s cubic-bezier(.25 .4, .45, 1.4);
+}
+.kodfun-galeri > div:hover{
+    flex: 5;
+}
